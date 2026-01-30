@@ -1,0 +1,38 @@
+FINAL ML Prompt
+Here's the updated prompt:
+
+---
+
+**Task:** Create a machine learning regression model in R (RStudio) to predict exam scores from 40 features.
+
+**Data specifications:**
+- Original: 13 categorical variables, 6 continuous variables, 1 target (exam scores)
+- Categorical variables: One-hot encoded into 34 binary columns (0/1)
+- Continuous variables: Mean-standardized (6 columns)
+- Total feature columns: 40
+- Dataset: Pre-cleaned with no whitespace
+- Train/test split: 80/20 (train data provided in CSV)
+
+**Model requirements:**
+1. Algorithm: Gradient descent with L2 regularization
+2. Cost function: Regularized mean squared error
+3. Iterations: 1000 (fixed)
+4. Parameter updates: Simultaneous (vectorized) for all weights and intercept
+5. Isolated target feature "Exam_Score" to ensure no data leakage. 
+6. alpha learning rate = .01
+7. lamba = 1
+8 interations = 1000
+
+**Output requirements:**
+1. Learning curve plot: Cost vs. iterations
+2. Contour plot: Gradient descent path to minimum
+3. Final RMSE or cost associated with model. I want to know how well the model is doing. 
+
+**Critical:** Use vectorized operations to ensure all parameters update simultaneously in each iteration.
+
+---
+EDITS:
+NOTE: All of this is the manual calculation in base R
+you dont have to create or do any one hot coding it is already done I was just making you aware of it
+
+have both the learning curve and contour plot be plot in the R Studio Plot section

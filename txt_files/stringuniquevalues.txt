@@ -1,0 +1,77 @@
+COLUMN: Parental_Involvement
+Count:  3 unique values
+Values: 
+  [ High, Low, Medium ]
+------------------------------------------------------
+
+COLUMN: Access_to_Resources
+Count:  3 unique values
+Values: 
+  [ High, Low, Medium ]
+------------------------------------------------------
+
+COLUMN: Extracurricular_Activities
+Count:  2 unique values
+Values: 
+  [ No, Yes ]
+------------------------------------------------------
+
+COLUMN: Motivation_Level
+Count:  3 unique values
+Values: 
+  [ High, Low, Medium ]
+------------------------------------------------------
+
+COLUMN: Internet_Access
+Count:  2 unique values
+Values: 
+  [ No, Yes ]
+------------------------------------------------------
+
+COLUMN: Family_Income
+Count:  3 unique values
+Values: 
+  [ High, Low, Medium ]
+------------------------------------------------------
+
+COLUMN: Teacher_Quality
+Count:  3 unique values
+Values: 
+  [ High, Low, Medium ]
+------------------------------------------------------
+
+COLUMN: School_Type
+Count:  2 unique values
+Values: 
+  [ Private, Public ]
+------------------------------------------------------
+
+COLUMN: Peer_Influence
+Count:  3 unique values
+Values: 
+  [ Negative, Neutral, Positive ]
+------------------------------------------------------
+
+COLUMN: Learning_Disabilities
+Count:  2 unique values
+Values: 
+  [ No, Yes ]
+------------------------------------------------------
+
+COLUMN: Parental_Education_Level
+Count:  3 unique values
+Values: 
+  [ College, High School, Postgraduate ]
+------------------------------------------------------
+
+COLUMN: Distance_from_Home
+Count:  3 unique values
+Values: 
+  [ Far, Moderate, Near ]
+------------------------------------------------------
+
+COLUMN: Gender
+Count:  2 unique values
+Values: 
+  [ Female, Male ]
+------------------------------------------------------
