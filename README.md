@@ -1,7 +1,7 @@
 ---
 title: "Student Exam Score Regression ML Algorithm"
 author: "Seb"
-date: "`r Sys.Date()`"
+date: "2/8/2026"
 output: 
   html_document:
     toc: true
